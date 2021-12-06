@@ -18,18 +18,18 @@ header{
     padding:0 15px;
     margin:0 auto;
 }
-header nav .left a{
+ .left a{
     color:white;
     text-decoration: none;
    margin-right:2rem ;
    text-transform:uppercase;
 }
-header nav .right a{
+.right a{
     color:white;
     text-decoration: none;
    text-transform:uppercase;
 }
-header nav .left a:hover{
+ .left a:hover{
     color:rgb(8, 218, 218);
     transition: all .3s ease;
 }
@@ -95,4 +95,8 @@ header nav{
 .happy{
     margin-left: 20px
 }
-     
+.left a{
+    color:white;
+    text-decoration: none;
+   margin-right:2rem ;
+   text-transform:uppercase;
