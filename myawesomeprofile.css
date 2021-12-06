@@ -1,0 +1,98 @@
+
+
+body{
+    font-family:'Poppins'; sans-serif;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: 0;
+    -webkit-font-smoothing:antialiased
+}
+header{
+    background-color: black;
+    clip-path: polygon( 0 0, 100% 0, 100% 100%, 80% 90%,  0 100%)
+}
+.container{
+    max-width: 1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+header nav .left a{
+    color:white;
+    text-decoration: none;
+   margin-right:2rem ;
+   text-transform:uppercase;
+}
+header nav .right a{
+    color:white;
+    text-decoration: none;
+   text-transform:uppercase;
+}
+header nav .left a:hover{
+    color:rgb(8, 218, 218);
+    transition: all .3s ease;
+}
+
+header nav{
+    padding:2rem 0;
+}
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.box{
+    padding: 0.8rem 3rem;
+    font-size:1rem;
+    font-weight:600;
+    border:2px solid transparent; 
+    cursor:pointer;
+    background:rgb(8, 218, 218);
+    color:black;
+    text-transform:uppercase;
+    transition:all .3sec ease;
+}
+.box:hover{
+    background:transparent ;
+    border-color: rgb(8, 218, 218);
+    color: rgb(8, 218, 218)
+}
+.profile{
+    color:aliceblue
+}
+.card{ background-color: black; 
+    width:98%; height:280px;
+    text-align:center; 
+}
+#location{
+    background-color:black;
+    width:98%; 
+    color:white;
+    text-align:center
+}
+#about{
+    color:rgb(0, 0, 0);
+     font-size:18px; 
+     font-weight:semibold;
+      background-color: #a0c3c5;
+      margin-left:20px; margin-top: 15px; 
+      height:110px;
+      width:70%
+}
+.icon{ 
+    height:35px;
+    width: 35px
+}
+.tor{ 
+    height:200x;
+    width:200px
+}
+.happy{
+    margin-left: 20px
+}
+     
